@@ -1,0 +1,22 @@
+.search-box-container {
+  display: flex;
+  height: 20vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-box {
+  padding: 15px;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 6px 30px -1px rgb(0 0 0 / 60%);
+  width: 400px;
+  outline: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+  .search-box {
+    width: 250px;
+  }
+}

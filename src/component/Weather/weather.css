@@ -1,0 +1,26 @@
+.weather-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 40vh;
+  line-height: 10px;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-style: italic;
+  font-size: 32px;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+}

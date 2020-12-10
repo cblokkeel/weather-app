@@ -1,0 +1,10 @@
+body {
+  background: linear-gradient(to right, #373b44, #4286f4);
+  color: white;
+}
+
+.App {
+  height: 100vh;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');

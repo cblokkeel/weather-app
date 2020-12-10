@@ -1,0 +1,19 @@
+.footer {
+  background-color: #333;
+  display: flex;
+  height: 20vh;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+
+a {
+  color: white;
+  transition: all 0.3s;
+  font-size: 32px;
+}
+
+a:hover {
+  color: #3498db;
+  transform: scale(1.12);
+}
